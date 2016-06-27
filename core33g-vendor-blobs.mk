@@ -57,13 +57,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/core33g/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
     vendor/samsung/core33g/proprietary/lib/libuvdenoise.so:system/lib/libuvdenoise.so \
     vendor/samsung/core33g/proprietary/lib/hw/camera.sc8830.so:system/lib/hw/camera.sc8830.so \
-    vendor/samsung/core33g/proprietary/lib/hw/gralloc.sc8830.so:system/lib/hw/gralloc.sc8830.so \
-    vendor/samsung/core33g/proprietary/lib/hw/hwcomposer.sc8830.so:system/lib/hw/hwcomposer.sc8830.so \
     vendor/samsung/core33g/proprietary/lib/hw/sensors.sc8830.so:system/lib/hw/sensors.sc8830.so \
-    vendor/samsung/core33g/proprietary/lib/hw/sprd_gsp.sc8830.so:system/lib/hw/sprd_gsp.sc8830.so \
     vendor/samsung/core33g/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/core33g/proprietary/lib/libomafldrm.so:system/lib/libomafldrm.so \
     vendor/samsung/core33g/proprietary/lib/drm/libomaplugin.so:system/lib/drm/libomaplugin.so \
     vendor/samsung/core33g/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/samsung/core33g/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/core33g/proprietary/lib/modules/autotst.ko:system/lib/modules/autotst.ko
+    vendor/samsung/core33g/proprietary/lib/modules/autotst.ko:system/lib/modules/autotst.ko \
+    vendor/samsung/core33g/proprietary/lib/libomx_aacdec_sprd.so:system/lib/libomx_aacdec_sprd.so \
+    vendor/samsung/core33g/proprietary/lib/libomx_avcdec_hw_sprd.so:system/lib/libomx_avcdec_hw_sprd.so \
+    vendor/samsung/core33g/proprietary/lib/libomx_avcenc_hw_sprd.so:system/lib/libomx_avcenc_hw_sprd.so \
+    vendor/samsung/core33g/proprietary/lib/libomx_m4vh263dec_hw_sprd.so:system/lib/libomx_m4vh263dec_hw_sprd.so \
+    vendor/samsung/core33g/proprietary/lib/libomx_m4vh263enc_hw_sprd.so:system/lib/libomx_m4vh263enc_hw_sprd.so \
+    vendor/samsung/core33g/proprietary/lib/libomx_mp3dec_sprd.so:system/lib/libomx_mp3dec_sprd.so \
+    vendor/samsung/core33g/proprietary/lib/libomx_vpxdec_hw_sprd.so:system/lib/libomx_vpxdec_hw_sprd.so
