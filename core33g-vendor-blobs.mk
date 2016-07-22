@@ -31,7 +31,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/core33g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/core33g/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/core33g/proprietary/lib/libatchannel.so:system/lib/libatchannel.so \
+    vendor/samsung/core33g/proprietary/vendor/firmware/vbc_eq:system/vendor/firmware/vbc_eq \
     vendor/samsung/core33g/proprietary/bin/macloader:system/bin/macloader \
+    vendor/samsung/core33g/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/samsung/core33g/proprietary/vendor/firmware/BCM4343A0_001.001.034.0056.0197_M_ORC_Core3.hcd:system/vendor/firmware/BCM4343A0_001.001.034.0056.0197_M_ORC_Core3.hcd \
     vendor/samsung/core33g/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/core33g/proprietary/bin/modemd:system/bin/modemd \
@@ -56,4 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/core33g/proprietary/lib/libomx_m4vh263dec_hw_sprd.so:system/lib/libomx_m4vh263dec_hw_sprd.so \
     vendor/samsung/core33g/proprietary/lib/libomx_m4vh263enc_hw_sprd.so:system/lib/libomx_m4vh263enc_hw_sprd.so \
     vendor/samsung/core33g/proprietary/lib/hw/camera.sc8830.so:system/lib/hw/camera.sc8830.so \
-    vendor/samsung/core33g/proprietary/lib/hw/sensors.sc8830.so:system/lib/hw/sensors.sc8830.so
+    vendor/samsung/core33g/proprietary/lib/hw/gralloc.sc8830.so:system/lib/hw/gralloc.sc8830.so \
+    vendor/samsung/core33g/proprietary/lib/hw/hwcomposer.sc8830.so:system/lib/hw/hwcomposer.sc8830.so \
+    vendor/samsung/core33g/proprietary/lib/hw/sensors.sc8830.so:system/lib/hw/sensors.sc8830.so \
+    vendor/samsung/core33g/proprietary/lib/hw/sprd_gsp.sc8830.so:system/lib/hw/sprd_gsp.sc8830.so
