@@ -16,15 +16,15 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/core33g/proprietary/vendor/firmware/BCM4343A0_001.001.034.0056.0197_M_ORC_Core3.hcd:system/vendor/firmware/BCM4343A0_001.001.034.0056.0197_M_ORC_Core3.hcd \
-    vendor/samsung/core33g/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/core33g/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/core33g/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/core33g/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/core33g/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/core33g/proprietary/etc/wifi/bcmdhd_apsta.bin:system/vendor/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/core33g/proprietary/etc/wifi/bcmdhd_sta.bin:system/vendor/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/core33g/proprietary/etc/wifi/bcmdhd_mfg.bin:system/vendor/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/core33g/proprietary/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/core33g/proprietary/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
     vendor/samsung/core33g/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
-    vendor/samsung/core33g/proprietary/lib/libboost.so:system/lib/libboost.so \
-    vendor/samsung/core33g/proprietary/lib/libisp.so:system/lib/libisp.so \
-    vendor/samsung/core33g/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
-    vendor/samsung/core33g/proprietary/lib/libuvdenoise.so:system/lib/libuvdenoise.so \
-    vendor/samsung/core33g/proprietary/lib/hw/camera.sc8830.so:system/lib/hw/camera.sc8830.so \
-    vendor/samsung/core33g/proprietary/lib/hw/sensors.sc8830.so:system/lib/hw/sensors.sc8830.so \
+    vendor/samsung/core33g/proprietary/lib/libboost.so:system/vendor/lib/libboost.so \
+    vendor/samsung/core33g/proprietary/lib/libisp.so:system/vendor/lib/libisp.so \
+    vendor/samsung/core33g/proprietary/lib/libmorpho_easy_hdr.so:system/vendor/lib/libmorpho_easy_hdr.so \
+    vendor/samsung/core33g/proprietary/lib/libuvdenoise.so:system/vendor/lib/libuvdenoise.so \
+    vendor/samsung/core33g/proprietary/lib/hw/camera.sc8830.so:system/vendor/lib/hw/camera.sc8830.so \
+    vendor/samsung/core33g/proprietary/lib/hw/sensors.sc8830.so:system/vendor/lib/hw/sensors.sc8830.so \
