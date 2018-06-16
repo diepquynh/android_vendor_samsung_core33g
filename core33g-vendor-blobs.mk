@@ -27,4 +27,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/core33g/proprietary/lib/libmorpho_easy_hdr.so:system/vendor/lib/libmorpho_easy_hdr.so \
     vendor/samsung/core33g/proprietary/lib/libuvdenoise.so:system/vendor/lib/libuvdenoise.so \
     vendor/samsung/core33g/proprietary/lib/hw/camera.sc8830.so:system/vendor/lib/hw/camera.sc8830.so \
-    vendor/samsung/core33g/proprietary/lib/hw/sensors.sc8830.so:system/vendor/lib/hw/sensors.sc8830.so \
+    vendor/samsung/core33g/proprietary/lib/hw/sensors.vendor.sc8830.so:system/vendor/lib/hw/sensors.vendor.sc8830.so \
